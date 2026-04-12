@@ -1,0 +1,54 @@
+#filter{
+    height: 40px;
+    width: 25%;
+}
+.header1,h2,#submit{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#fruit-name{
+    width: 40%;
+}
+#submit{
+    background-color: rgb(13, 187, 13);
+    width: 10%;
+}
+.user-list{
+    background-color: pink;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 30px;
+    width: 50%;
+}
+.fruit{
+    margin: 5px;
+    padding: 5px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.del-btn{
+    float: right;
+    margin: 2px;
+}
+.h2{
+    margin-top: 10px;
+}
+.user-div{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.fruit p{
+    flex-basis: 100%;
+}
+
+

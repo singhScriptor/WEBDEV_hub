@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(43, 56, 91);">
+    <div class="container header d-flex justify-content-center align-content-center gap-2 p-2 ">
+        <i class="fa-solid fa-clock fa-2x text-success mt-2"></i>
+        <h1 class="m-0 text-white fw-bolder">MY TO-DO LIST</h1>
+    </div>
+    <div class="container d-flex flex-column">
+        <form >
+            <div class="d-flex justify-content-center align-items-center m-3 p-2">
+                <input type="text" name="name" class="name form-control w-25 p-2 bg-white border-0 " placeholder="add a new task" required>
+                <textarea name="description" class="description form-control w-25 ms-2  bg-white border-0 " placeholder="add description" required></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="submit form-control w-25 p-3 bg-info text-white shadow-lg border-0">+ Add</button>
+            </div>
+        </form>
+        <div class="container d-flex justify-content-center p-2 shadow-lg  w-50 mt-3 rounded">
+            <div>
+                <h2 class="text-white mb-2 fw-bolder p-2">All List</h2>
+            </div>
+            <ul style="max-height: 250px; overflow-y: auto;"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

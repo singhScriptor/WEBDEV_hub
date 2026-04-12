@@ -1,0 +1,85 @@
+.container{
+    max-width:100vw !important;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#header_div{
+    background-color: skyblue;
+    border-radius: 5px;
+    border-bottom: 2px solid ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#header1{
+    font-weight: 900;
+    font-style: oblique;
+}
+#filter{
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: blue;
+    font-style: oblique;
+}
+
+form,h2{
+    padding: 5px;
+    font-weight:bolder;
+    font-style: oblique;
+    margin: 5px;
+
+}
+#fruit_name{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: blue;
+    width: 35%;
+}
+#submit{
+    padding: 5px;
+    background-color: green;
+    width: 10%;
+    border:none;
+    border-radius: 5px;
+    color: azure;
+}
+ul.fruits{
+    background-color:pink;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 50%;
+    list-style-type: none;
+}
+li.fruits{
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.del-btn{
+    margin-left: auto;
+    border-radius: 5px;
+    border:none;
+    background-color: red;
+    padding: 5px;
+    width: 10%;
+    color: aliceblue;
+}
+#thanks{
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+#thanks:hover{
+    color: orange;
+}
+

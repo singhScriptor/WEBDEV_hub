@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>filter-functionality</title>
+</head>
+<body>
+    <form >
+        <div class="container-fluid header bg-info  d-flex p-3 ">
+            <h1 class="h1 text-center fw-bolder">Fruit Shop</h1>
+            <input type="text" name="search" id="search" class="search ms-auto rounded border-0 w-25" placeholder="search fruits">
+        </div>
+        <div class="container header2 mt-3">
+            <h2 class="h2">Add Fruits</h2>
+            <label for="add-fruit"></label>
+            <input type="text" name="add-fruit" id="add-fruit" class="p-2 add-fruit border-success rounded " required>
+            <button type="submit" class="submit p-2 rounded border-0">Add</button>
+        </div>
+        <div class="container res-list">
+            <ul class="user-list list-unstyled">
+                <li class="fruit-list d-flex">Banana <button type="button" class="del-btn ms-auto bg-danger rounded p-2 border-0 text-white">X</button></li>
+                <li class="fruit-list d-flex">Apple  <button type="button" class="del-btn ms-auto bg-danger rounded p-2 border-0 text-white">X</button></li>
+                <li class="fruit-list d-flex">Orange  <button type="button" class="del-btn ms-auto bg-danger rounded p-2 border-0 text-white">X</button></li>
+                <li class="fruit-list d-flex">Kiwi <button type="button" class="del-btn ms-auto bg-danger rounded p-2 border-0 text-white">X</button></li>
+            </ul>
+        </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
