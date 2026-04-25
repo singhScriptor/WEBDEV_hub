@@ -9,7 +9,7 @@ const requestHandler = (req, res) => {
         fs.readFile('formValues.txt', (err, data) => {
             let savedValue =''
             if(!err){
-                savedValue=data.toString()
+                savedValue=data.toString() 
             }
             res.end(`
                 <form action="/message" method="post">
@@ -18,11 +18,10 @@ const requestHandler = (req, res) => {
                     <input type="text" name="name">
                     <button type="submit">Add</button>
                 </form>
-                
             `);
         });
     }
-    else if (url === '/message' && method === 'POST') {
+    else if (url === '/message') {
         let body = [];
         req.on('data', (chunk) => {
             body.push(chunk);
@@ -40,7 +39,7 @@ const requestHandler = (req, res) => {
         });
     }
     else if (url === '/read') {
-        fs.readFile('formValues.txt', 'utf8', (err, data) => {
+        fs.readFile('formValues.txt', (err, data) => {
             res.setHeader("Content-Type", "text/html");
             res.end(`<h1>${data}</h1>`);
         });

@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "http": "^0.0.1-security"
-  }
+  },
+  "name": "webdev_hub",
+  "version": "1.0.0",
+  "description": "A robust repository featuring **Expense Tracker** and **Todo List** applications. This project demonstrates mastery in core Web Development—including **DOM Manipulation**, **Linked List** data structures, and **CRUD** operations—while currently integrating **Node.js** for backend logic.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhScriptor/WEBDEV_hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/singhScriptor/WEBDEV_hub/issues"
+  },
+  "homepage": "https://github.com/singhScriptor/WEBDEV_hub#readme"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "read_write_form",
+  "name": "basicserver",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,8 +10,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "type": "commonjs"
 }
