@@ -7,7 +7,7 @@ const getProducts = (req,res)=>{
 const postProduct = (req,res)=>{
     const product = req.body
     console.log(product)
-    req.json({message:'product added successfully',product})
+    res.json({message:'product added successfully',product})
 }
 
 module.exports={
